@@ -112,20 +112,6 @@ sudo apt install nginx
       
       - For Nginx, update the server block configurations in /etc/nginx/sites-available/.
 
-Example Apache Virtual Host Configuration:
-
-apache
-Copy code
-<VirtualHost 123.123.123.1:80>
-    ServerName www.site1.com
-    DocumentRoot /var/www/site1
-</VirtualHost>
-
-<VirtualHost 123.123.123.2:80>
-    ServerName www.site2.com
-    DocumentRoot /var/www/site2
-</VirtualHost>
-
 <b>Step 5: Test the Setup </b>
 1. Use a web browser or curl to access each website by its domain or IP.
 2. Verify that the correct website loads for each IP address.
